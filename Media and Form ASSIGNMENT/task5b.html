@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign In</title>
+  <style>
+    body {
+  font-family: sans-serif;
+  margin: 0;
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+}
+form {
+  margin-top: 20px;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #0e0d0d;
+}
+input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+body {
+  background-color: yellowgreen;
+}
+
+ 
+  </style>
+</head>
+<body>
+    
+  <div class="container">
+    
+    <h1>Sign In</h1>
+    <form action="/signin" method="post">
+      <label for="email">Email:
+        <input type="email" name="email" placeholder="taylorjuinior.com" id="email" required />
+        </label>
+        <label for="password">Password:
+          <input type="password" name="password" placeholder="********" id="password" required
+          min=8 />
+          </label>
+          <button type="submit">SIGN IN </button>
+    </form>
+  </div>
+  </div>
+</body>
+</html>
